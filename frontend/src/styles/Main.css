@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+}
+.menu{
+    background: #92a9ff;
+    color: white;
+    width: 15%;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.content{
+    padding: 25px;
+    width: 100%;
+}
+.menubutton:hover{
+    color: #ffbb1e;
+    cursor: pointer;
+}
+.menubutton{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}

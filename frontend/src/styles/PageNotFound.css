@@ -1,0 +1,11 @@
+.PageNotFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #92a9ff;
+}
+.PageNotFound h1{
+    color: white;
+}

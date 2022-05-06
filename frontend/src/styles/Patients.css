@@ -1,0 +1,93 @@
+.patientTable{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+table{
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.patient{
+    background: #92a9ff;
+}
+.patient td:first-child { border-top-left-radius: 10px; }
+.patient td:last-child { border-top-right-radius: 10px; }
+.patient td:first-child { border-bottom-left-radius: 10px; }
+.patient td:last-child { border-bottom-right-radius: 10px; }
+.buttonsPatient{
+    text-align: right;
+}
+.edit{
+    border-radius: 10px;
+    padding: 10px;
+    background: #0aa60a;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;      
+    transition: 0.3s;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.edit:hover{
+    background: #41bf41;  
+}
+.delete{
+    border-radius: 10px;
+    padding: 10px;
+    background: #a60a0a;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;      
+    transition: 0.3s;
+    font-weight: bold;
+}
+.delete:hover{
+    background: #bf4141;  
+}
+.add{
+    border-radius: 10px;
+    padding: 10px;
+    background: #1232a6;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;      
+    transition: 0.3s;
+    font-weight: bold;
+}
+.add:hover{
+    background: #5068bf;  
+}
+.addPatient{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.consultPatient{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.consultPatient textarea{
+    resize: vertical;
+    min-height: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 8px;
+    border: 2px solid #6a8aff;
+    outline: none;
+}
